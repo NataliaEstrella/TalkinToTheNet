@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51ED6E081BB32F90006DB93B /* APImanager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ED6E071BB32F90006DB93B /* APImanager.m */; settings = {ASSET_TAGS = (); }; };
+		51ED6E0B1BB4BB72006DB93B /* APIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ED6E0A1BB4BB72006DB93B /* APIViewController.m */; settings = {ASSET_TAGS = (); }; };
+		51ED6E0E1BB4BB9C006DB93B /* APIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ED6E0D1BB4BB9C006DB93B /* APIDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		51ED6E111BB4BD17006DB93B /* APIResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 51ED6E101BB4BD17006DB93B /* APIResults.m */; settings = {ASSET_TAGS = (); }; };
 		8D7DCD4B1BAF859400A92AD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7DCD4A1BAF859400A92AD2 /* main.m */; };
 		8D7DCD4E1BAF859400A92AD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7DCD4D1BAF859400A92AD2 /* AppDelegate.m */; };
 		8D7DCD511BAF859400A92AD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7DCD501BAF859400A92AD2 /* ViewController.m */; };
@@ -16,6 +20,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51ED6E061BB32F90006DB93B /* APImanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImanager.h; sourceTree = "<group>"; };
+		51ED6E071BB32F90006DB93B /* APImanager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImanager.m; sourceTree = "<group>"; };
+		51ED6E091BB4BB72006DB93B /* APIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIViewController.h; sourceTree = "<group>"; };
+		51ED6E0A1BB4BB72006DB93B /* APIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIViewController.m; sourceTree = "<group>"; };
+		51ED6E0C1BB4BB9C006DB93B /* APIDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIDetailViewController.h; sourceTree = "<group>"; };
+		51ED6E0D1BB4BB9C006DB93B /* APIDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIDetailViewController.m; sourceTree = "<group>"; };
+		51ED6E0F1BB4BD17006DB93B /* APIResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIResults.h; sourceTree = "<group>"; };
+		51ED6E101BB4BD17006DB93B /* APIResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIResults.m; sourceTree = "<group>"; };
 		8D7DCD461BAF859400A92AD2 /* TalkinToTheNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkinToTheNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7DCD4A1BAF859400A92AD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D7DCD4C1BAF859400A92AD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,7 +54,7 @@
 		8D7DCD3D1BAF859400A92AD2 = {
 			isa = PBXGroup;
 			children = (
-				8D7DCD481BAF859400A92AD2 /* TalkinToTheNet */,
+				8D7DCD481BAF859400A92AD2 /* General */,
 				8D7DCD471BAF859400A92AD2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,19 +67,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D7DCD481BAF859400A92AD2 /* TalkinToTheNet */ = {
+		8D7DCD481BAF859400A92AD2 /* General */ = {
 			isa = PBXGroup;
 			children = (
 				8D7DCD4C1BAF859400A92AD2 /* AppDelegate.h */,
 				8D7DCD4D1BAF859400A92AD2 /* AppDelegate.m */,
 				8D7DCD4F1BAF859400A92AD2 /* ViewController.h */,
 				8D7DCD501BAF859400A92AD2 /* ViewController.m */,
+				51ED6E061BB32F90006DB93B /* APImanager.h */,
+				51ED6E071BB32F90006DB93B /* APImanager.m */,
+				51ED6E0F1BB4BD17006DB93B /* APIResults.h */,
+				51ED6E101BB4BD17006DB93B /* APIResults.m */,
+				51ED6E091BB4BB72006DB93B /* APIViewController.h */,
+				51ED6E0A1BB4BB72006DB93B /* APIViewController.m */,
 				8D7DCD521BAF859400A92AD2 /* Main.storyboard */,
+				51ED6E0C1BB4BB9C006DB93B /* APIDetailViewController.h */,
+				51ED6E0D1BB4BB9C006DB93B /* APIDetailViewController.m */,
 				8D7DCD551BAF859400A92AD2 /* Assets.xcassets */,
 				8D7DCD571BAF859400A92AD2 /* LaunchScreen.storyboard */,
 				8D7DCD5A1BAF859400A92AD2 /* Info.plist */,
 				8D7DCD491BAF859400A92AD2 /* Supporting Files */,
 			);
+			name = General;
 			path = TalkinToTheNet;
 			sourceTree = "<group>";
 		};
@@ -149,8 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51ED6E0E1BB4BB9C006DB93B /* APIDetailViewController.m in Sources */,
+				51ED6E081BB32F90006DB93B /* APImanager.m in Sources */,
+				51ED6E111BB4BD17006DB93B /* APIResults.m in Sources */,
 				8D7DCD511BAF859400A92AD2 /* ViewController.m in Sources */,
 				8D7DCD4E1BAF859400A92AD2 /* AppDelegate.m in Sources */,
+				51ED6E0B1BB4BB72006DB93B /* APIViewController.m in Sources */,
 				8D7DCD4B1BAF859400A92AD2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +325,7 @@
 				8D7DCD5F1BAF859400A92AD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
